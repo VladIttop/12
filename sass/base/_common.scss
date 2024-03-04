@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  display: block;
+  text-decoration: none;
+}
+button,
+img {
+  display: block;
+}
+button {
+  cursor: pointer;
+}
+.outer-container {
+  max-width: 100%;
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.inner-container {
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 30px;
+  @media screen and (min-width: 768px) {
+    max-width: 1199px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1288px;
+  }
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Roboto:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <div class="outer-container">
+      <header class="header">
+        <div class="inner-container header-container">
+          <div class="header-left">
+            <a href="./index.html"
+              ><img src="./img/logo.png" alt="logo" class="header-left__logo" />
+            </a>
+            <a href="./index.html">
+              <p class="header-left__link">Твій БУС</p></a
+            >
+          </div>
+          <div class="header-right">
+            <nav class="nav-menu">
+              <button class="nav-menu__toggle">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 16"
+                  fill="none"
+                >
+                  <path
+                    d="M1.5 8H22.5M1.5 1H22.5M1.5 15H22.5"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <button class="nav-menu__close">
+                <svg
+                  class="nav-menu__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 28 28"
+                  fill="none"
+                >
+                  <path
+                    d="M19.8334 8.16675L8.16669 19.8334M8.16669 8.16675L19.8334 19.8334"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+              <ul class="header-right-list">
+                <li><a href="" class="header-right-list__link">Переваги</a></li>
+                <li><a href="" class="header-right-list__link">Про нас</a></li>
+                <li><a href="" class="header-right-list__link">Контакти</a></li>
+                <li><a href="" class="header-right-list__link">Відгуки</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="inner-container">
+            <div class="hero-content">
+              <h1 class="hero-content__title">
+                Міжнародна доставка посилок та пасажирські перевезення
+              </h1>
+              <p class="hero-content__paragraph">
+                Доставимо вашу посилку вчасно та в надійності!
+              </p>
+            </div>
+            <div class="hero-decoration">
+              <img
+                class="hero-decoration__package"
+                src="./img/package.png"
+                alt=""
+              />
+              <img
+                class="hero-decoration__truck"
+                src="./img/truck.png"
+                alt=""
+              />
+            </div>
+            <div class="hero-buttons">
+              <a class="hero-buttons__btn" href="">Детальніше</a>
+              <a class="hero-buttons__btn yellow" href="">Тарифи</a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="./js/burger-menu.js"></script>
+  </body>
+</html>

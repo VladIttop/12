@@ -1,0 +1,152 @@
+.hero {
+  background-color: #d2d8d6;
+  background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.hero-content {
+  @media screen and (min-width: 700px) {
+    padding-left: 50px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    padding-left: 100px;
+  }
+  &__title {
+    color: #212121;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+    max-width: 210px;
+    margin-bottom: 5px;
+
+    @media screen and (min-width: 700px) {
+      max-width: 270px;
+    }
+  }
+
+  &__paragraph {
+    color: #464646;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+    max-width: 210px;
+
+    @media screen and (min-width: 700px) {
+      max-width: 270px;
+    }
+  }
+}
+
+.hero-decoration {
+  margin-bottom: 20px;
+
+  &__package {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    transform: rotate(35deg);
+
+    @media screen and (min-width: 400px) {
+      width: 90px;
+      height: 90px;
+    }
+
+    @media screen and (min-width: 500px) {
+      width: 120px;
+      height: 120px;
+      top: 40px;
+    }
+
+    @media screen and (min-width: 600px) {
+      width: 150px;
+      height: 150px;
+      top: 10px;
+    }
+
+    @media screen and (min-width: 700px) {
+      right: 100px;
+    }
+    @media screen and (min-width: 1199px) {
+      right: 100px;
+      top: 5px;
+    }
+  }
+
+  &__truck {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+    transform: rotate(-25deg);
+    @media screen and (min-width: 400px) {
+      width: 90px;
+      height: 90px;
+      top: 120px;
+    }
+
+    @media screen and (min-width: 500px) {
+      width: 120px;
+      height: 120px;
+      top: 140px;
+    }
+
+    @media screen and (min-width: 600px) {
+      width: 150px;
+      height: 150px;
+      top: 125px;
+    }
+
+    @media screen and (min-width: 700px) {
+      right: 100px;
+    }
+
+    @media screen and (min-width: 1199px) {
+      right: 320px;
+      top: 90px;
+    }
+  }
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 230px;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 700px) {
+    padding-left: 50px;
+    width: 280px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    padding-left: 100px;
+  }
+
+  @media screen and (min-width: 1199px) {
+    width: 290px;
+  }
+
+  &__btn {
+    background-color: silver;
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    color: #333;
+    box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+  .yellow {
+    background-color: gold;
+  }
+}
