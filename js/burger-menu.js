@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const menuIcon = document.querySelector(".nav-menu__toggle");
   const menu = document.querySelector(".header-right-list");
   const closeMenu = document.querySelector(".nav-menu__icon");
+  const link = document.querySelector(".header-right-list__link");
 
   menuIcon.addEventListener("click", function () {
     menu.classList.toggle("show");
@@ -19,4 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.classList.remove("show");
     closeMenu.style.display = "none";
   });
+
+link.addEventListener('click', () => {
+  menu.classList.remove("show");
+})
 });
