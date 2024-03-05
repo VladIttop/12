@@ -24,6 +24,5 @@ document.addEventListener("DOMContentLoaded", function () {
   link.addEventListener("click", () => {
     menu.classList.remove("show");
     closeMenu.style.display = "none";
-    menu.style.display = "none";
   });
 });
