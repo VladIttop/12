@@ -24,7 +24,7 @@ ul {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
 }
 
 a {
@@ -283,7 +283,7 @@ button {
 }
 @media screen and (min-width: 1199px) {
   .hero-decoration__package {
-    right: 100px;
+    right: 200px;
     top: 5px;
   }
 }
@@ -323,15 +323,14 @@ button {
 }
 @media screen and (min-width: 1199px) {
   .hero-decoration__truck {
-    right: 320px;
+    right: 380px;
     top: 90px;
   }
 }
 
 .hero-buttons {
   display: flex;
-  justify-content: space-between;
-  width: 230px;
+  gap: 10px;
   margin-bottom: 20px;
 }
 @media screen and (min-width: 700px) {
@@ -343,11 +342,6 @@ button {
 @media screen and (min-width: 1000px) {
   .hero-buttons {
     padding-left: 100px;
-  }
-}
-@media screen and (min-width: 1199px) {
-  .hero-buttons {
-    width: 290px;
   }
 }
 .hero-buttons__btn {
