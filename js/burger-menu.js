@@ -21,7 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
     closeMenu.style.display = "none";
   });
 
-link.addEventListener('click', () => {
-  menu.classList.remove("show");
-})
+  link.addEventListener("click", () => {
+    menu.classList.remove("show");
+    closeMenu.style.display = "none";
+    menu.style.display = "none";
+  });
 });
