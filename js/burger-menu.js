@@ -11,18 +11,23 @@ document.addEventListener("DOMContentLoaded", function () {
   const closeMenu = document.querySelector(".nav-menu__icon");
   const link = document.querySelector(".header-right-list__link");
 
+
   menuIcon.addEventListener("click", function () {
     menu.classList.toggle("show");
     closeMenu.style.display = "block";
+    document.body.style.overflow = "hidden";
   });
 
   closeMenu.addEventListener("click", () => {
     menu.classList.remove("show");
     closeMenu.style.display = "none";
+    document.body.style.overflow = "auto";
   });
 
   link.addEventListener("click", () => {
     menu.classList.remove("show");
     closeMenu.style.display = "none";
+    document.body.style.overflow = "auto";
   });
+  document.body.style.overflow = "auto";
 });
