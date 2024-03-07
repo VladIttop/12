@@ -191,7 +191,7 @@ button {
   align-items: center;
   flex-direction: column;
   gap: 15px;
-  height: 100vh;
+  height: 100%;
   background-color: #262626;
   right: 0;
   z-index: 200;
@@ -371,6 +371,17 @@ button {
   text-transform: uppercase;
   margin-bottom: 32px;
 }
+@media screen and (min-width: 767px) {
+  .advantages__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .advantages {
+    padding: 60px 0;
+  }
+}
 
 .advantages-list {
   display: flex;
@@ -385,7 +396,7 @@ button {
     flex-wrap: wrap;
   }
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1240px) {
   .advantages-list {
     max-width: inherit;
     gap: 0;
@@ -437,5 +448,85 @@ button {
   .advantages-list__paragraph {
     font-size: 16px;
     letter-spacing: -0.54px;
+  }
+}
+
+.about {
+  background: linear-gradient(135deg, #ededed 2.34%, #c4c4c4 97.59%);
+  padding: 30px 0;
+  margin: 10px;
+  border-radius: 20px;
+}
+@media screen and (min-width: 767px) {
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 767px) {
+  .about-img {
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .about-img {
+    padding-left: inherit;
+  }
+}
+.about-img__img {
+  margin-bottom: 20px;
+  width: 270px;
+  height: 180px;
+}
+@media screen and (min-width: 375px) {
+  .about-img__img {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .about-img__img {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+.about-content {
+  padding: 0 30px;
+}
+.about-content__title {
+  color: #111;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.about-content__paragraph {
+  color: #111;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+@media screen and (min-width: 767px) {
+  .about-content__paragraph {
+    max-width: 400px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .about-content__paragraph {
+    max-width: 500px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.72px;
   }
 }/*# sourceMappingURL=main.css.map */
