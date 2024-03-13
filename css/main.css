@@ -163,7 +163,7 @@ button {
   .header-right .header-right-list {
     display: flex;
     justify-content: space-between;
-    width: 300px;
+    width: 400px;
     align-items: center;
     position: inherit;
   }
