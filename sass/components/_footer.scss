@@ -1,0 +1,21 @@
+.footer {
+  padding: 10px 0;
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+
+  &__name {
+    @media screen and (min-width: 767px) {
+      font-size: 16px;
+    }
+  }
+
+  &__rights {
+    @media screen and (min-width: 767px) {
+        font-size: 16px;
+      }
+  }
+}

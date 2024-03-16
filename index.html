@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Твій БУС</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -11,6 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="icon" href="./img/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -66,7 +67,7 @@
               <ul class="header-right-list">
                 <li>
                   <a href="#advantages" class="header-right-list__link"
-                    >Переваги</a
+                    >Чому нас?</a
                   >
                 </li>
                 <li>
@@ -82,7 +83,9 @@
                   <a href="#reviews" class="header-right-list__link">Відгуки</a>
                 </li>
                 <li>
-                  <a href="" class="header-right-list__link">Контакти</a>
+                  <a href="#contacts" class="header-right-list__link"
+                    >Контакти</a
+                  >
                 </li>
               </ul>
             </nav>
@@ -164,17 +167,20 @@
         </section>
         <section class="about" id="about">
           <div class="about-img">
-            <img class="about-img__img" src="./img/about-car.png" alt="" />
+            <img class="about-img__img" src="./img/about-car.png" alt="car" />
           </div>
 
           <div class="about-content">
             <h2 class="about-content__title">Про нас</h2>
             <p class="about-content__paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quae
-              eum, dignissimos repudiandae cupiditate nam temporibus neque
-              architecto optio esse tenetur voluptates laborum. Ducimus enim quo
-              corporis itaque autem blanditiis, a labore, dolores nulla commodi
-              recusandae magni iste explicabo voluptate.
+              Досвідчені водії, стаж водіння більше 10 років. Сучасні
+              мікро-автобуси, зручні крісла, WI-FI, USB зарядки. Доставки
+              посилок 2-3 дні, час в дорозі 30 годин. Кожному пасажиру водичка і
+              кава-чай в дорогу. Зупиняємось по бажанню пасажира. Співпрацємо з
+              Новою Поштою. Можливість замовити індивідуальні перевезення
+              (переїзд). Доставка посилок в Україну в такі міста:
+              Івано-Франківськ, Львів, Тернопіль та інші міста по домовленості.
+              Англія: Лондон і околиці, решта міст по домовленості.
             </p>
           </div>
         </section>
@@ -290,7 +296,7 @@
             <ul class="tariffs-list">
               <li class="tariffs-list__item">
                 <img
-                  src="./img/free.png"
+                  src="./img/package.png"
                   alt="icon img"
                   class="tariffs-list-item__img"
                 />
@@ -298,7 +304,7 @@
               </li>
               <li class="tariffs-list__item">
                 <img
-                  src="./img/free.png"
+                  src="./img/package.png"
                   alt="icon img"
                   class="tariffs-list-item__img"
                 />
@@ -306,7 +312,7 @@
               </li>
               <li class="tariffs-list__item">
                 <img
-                  src="./img/free.png"
+                  src="./img/package.png"
                   alt="icon img"
                   class="tariffs-list-item__img"
                 />
@@ -324,7 +330,7 @@
               </li>
               <li class="tariffs-list__item">
                 <img
-                  src="./img/free.png"
+                  src="./img/adult.png"
                   alt="icon img"
                   class="tariffs-list-item__img"
                 />
@@ -334,7 +340,7 @@
               </li>
               <li class="tariffs-list__item">
                 <img
-                  src="./img/free.png"
+                  src="./img/child.png"
                   alt="icon img"
                   class="tariffs-list-item__img"
                 />
@@ -344,12 +350,13 @@
               </li>
               <li class="tariffs-list__item">
                 <img
-                  src="./img/free.png"
+                  src="./img/shield.png"
                   alt="icon img"
                   class="tariffs-list-item__img"
                 />
                 <p class="tariffs-list-item__paragraph">
-                Для військовослужбовців ЗСУ та Сил оборони України проїзд безкоштовний
+                  Для військовослужбовців ЗСУ та Сил оборони України проїзд
+                  безкоштовний
                 </p>
               </li>
             </ul>
@@ -388,7 +395,110 @@
             </ul>
           </div>
         </section>
+        <section class="contacts" id="contacts">
+          <div class="inner-container">
+            <h2 class="contacts__title">Контакти</h2>
+            <p class="contacts__paragraph">Ми завжди на звязку!</p>
+
+            <h3 class="contacts__name">Андрій (Українські номера)</h3>
+            <a class="contacts__number" href="tel:+390680330481"
+              >+39 068 03 30 481</a
+            >
+            <div class="contacts-socials">
+              <a class="contacts-socials__link" href="">
+                <img
+                  class="contacts-socials__img"
+                  src="./img/telegram-logo.png"
+                  alt="telegram-logo"
+                />
+              </a>
+              <a
+                class="contacts-socials__link"
+                href="https://wa.me/390680330481"
+              >
+                <img
+                  class="contacts-socials__img"
+                  src="./img/whatsapp.svg"
+                  alt="whatsapp-logo"
+                />
+              </a>
+              <a
+                class="contacts-socials__link"
+                href="viber://chat?number=+390680330481/"
+              >
+                <img
+                  class="contacts-socials__img"
+                  src="./img/viber-logo.png"
+                  alt="viber-logo"
+                />
+              </a>
+            </div>
+            <!--  -->
+            <div class="mg-top">
+              <h3 class="contacts__name">Андрій (Англійські номера)</h3>
+              <a class="contacts__number" href="tel:+447442072707"
+                >+44 744 207 2707</a
+              >
+              <div class="contacts-socials">
+                <a
+                  class="contacts-socials__link"
+                  href="https://wa.me/447442072707"
+                >
+                  <img
+                    class="contacts-socials__img"
+                    src="./img/whatsapp.svg"
+                    alt="whatsapp-logo"
+                  />
+                </a>
+                <a
+                  class="contacts-socials__link"
+                  href="viber://chat?number=+447442072707/"
+                >
+                  <img
+                    class="contacts-socials__img"
+                    src="./img/viber-logo.png"
+                    alt="viber-logo"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="contacts-join">
+              <h3 class="contacts-join__paragraph">
+                Приєднуйтесь до нас в соціальних мережах
+              </h3>
+              <div class="contacts-join-images">
+                <a
+                  href="https://www.tiktok.com/@lar2650?_t=8kTerANv8HV&_r=1"
+                  target="_blank"
+                >
+                  <img
+                    class="contacts-join__img"
+                    src="./img/tiktok.svg"
+                    alt="tiktok logo"
+                  />
+                </a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100087372382086"
+                  target="_blank"
+                >
+                  <img
+                    class="contacts-join__img"
+                    src="./img/facebook.svg"
+                    alt="facebook logo"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+      <footer class="footer">
+        <div class="footer-content inner-container">
+          <p class="footer-content__name">Твій БУС</p>
+          <p class="footer-content__rights">© 2024 All rights reserved</p>
+        </div>
+      </footer>
     </div>
     <script src="./js/burger-menu.js"></script>
   </body>
