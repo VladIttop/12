@@ -1,6 +1,6 @@
 .hero {
-  background-color: #d2d8d6;
-  background-image: linear-gradient(315deg, #d2d8d6 0%, #dce8e0 74%);
+background: rgb(0,20,255);
+background: linear-gradient(90deg, rgba(0,20,255,1) 40%, rgba(247,255,0,1) 56%);
   background-position: center;
   background-size: cover;
   padding-top: 50px;
@@ -17,7 +17,7 @@
     padding-left: 100px;
   }
   &__title {
-    color: #212121;
+    color: #fff;
     font-size: 24px;
     font-weight: 600;
     line-height: 24px;
@@ -31,7 +31,7 @@
   }
 
   &__paragraph {
-    color: #464646;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
@@ -134,17 +134,14 @@
   
 
   &__btn {
-    background-color: silver;
+    background-color: gold;
     width: 110px;
     height: 30px;
     border-radius: 20px;
     padding: 5px 10px;
     text-align: center;
-    color: #333;
+    color: black;
     box-shadow: 2px 2px 20px 0 rgba(0, 0, 0, 0.2);
 
-  }
-  .yellow {
-    background-color: gold;
   }
 }
